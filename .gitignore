@@ -1,0 +1,37 @@
+# Machine-specific shared storage link
+/storage
+
+# Local environments, credentials and caches
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+*.pem
+*.key
+
+# Large local artifacts belong in storage/
+/data/
+/datasets/
+/models/
+/checkpoints/
+/runs/
+/outputs/
+/downloads/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.bag
+*.mcap
